@@ -1,0 +1,40 @@
+﻿*
+{
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+}
+
+/* 当前位置标签 */
+QLabel#labelSite
+{
+    color: #999;
+}
+
+/* 修改位置按钮 */
+QPushButton#btnChangeLocation
+{
+    color: #0089dc;
+    background: none;
+    border: none;
+}
+
+QPushButton#btnChangeLocation:hover
+{
+    color: #2d78f4;
+}
+
+QPushButton#btnSearch
+{
+    border-image: url(:/img/search_normal.png);
+    background: transparent;
+}
+
+QPushButton#btnSearch:hover
+{
+    border-image: url(:/img/search_hover.png);
+}
+
+QPushButton#btnSearch:pressed
+{
+    border-image: url(:/img/search_hover.png);
+}

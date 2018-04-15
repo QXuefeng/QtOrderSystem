@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BusinessWidgetItem</class>
+ <widget class="QWidget" name="BusinessWidgetItem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>140</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">* {
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+}
+
+
+QLabel#labelCost, #labelArrivalTime {
+	color: rgb(153, 153, 153);
+}
+
+QLabel#labelBusinessName {
+	font-size: 16px;
+	font-weight: 600;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="labelBusinessPic">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>23</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelArrivalTime">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>93</y>
+     <width>70</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBusinessName">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>23</y>
+     <width>170</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCost">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>73</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

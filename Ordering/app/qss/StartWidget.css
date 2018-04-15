@@ -1,0 +1,43 @@
+﻿*{
+    font-family: Microsoft YaHei;
+    background: white;
+    font-size: 12px;
+}
+
+/* logo */
+QLabel#labelLogo
+{
+    background: url(:/img/logo1.png);
+}
+
+QLineEdit
+{
+    border-color: rgb(221, 221, 221);
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}
+QLineEdit#editPwd:pressed
+{
+    border-color: rgb(0, 137, 220);
+}
+
+/* 登陆,注册确定按钮 */
+QPushButton#btnLoginAck
+{
+    color: white;
+    font: bold 15px;
+    background: rgb(76, 217, 111);
+    border: none;
+    border-radius: 4px;
+}
+QPushButton#btnLoginAck:hover
+{
+    background: rgb(76, 217, 100);
+}
+QPushButton#btnLoginAck:pressed
+{
+    background: rgb(76, 217, 100);
+}
+

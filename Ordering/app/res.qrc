@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/back.png</file>
+        <file>qss/StartWidget.css</file>
+        <file>qss/MainWidget.css</file>
+        <file>img/emptystar.png</file>
+        <file>img/fullstar.png</file>
+        <file>img/halfstar.png</file>
+        <file>qss/IndexWidget.css</file>
+        <file>qss/QScrollArea.css</file>
+        <file>img/logo2.png</file>
+        <file>img/logo1.png</file>
+        <file>img/search_hover.png</file>
+        <file>img/search_normal.png</file>
+    </qresource>
+</RCC>
